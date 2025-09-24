@@ -221,11 +221,6 @@ Acesse `http://localhost:8081` no navegador
 - Visualização detalhada do JSON de dados
 - Histórico de processos
 
-#### Sistema de Chamados
-- Abertura de chamados via email
-- Formulário integrado
-- Categorização automática
-
 ### 3. Monitoramento Automático
 
 Execute o monitoramento manual:
