@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  rmm-api:
+    # Usa o Dockerfile na subpasta RMM-API para construir a imagem
+    build: ./RMM-API
+    
+    # Mapeia a porta 2500 do seu computador para a porta 2500 do container
+    ports:
+      - "2500:2500"
+    
+    restart: always
+
+  rmm-frontend:
+    # Usa o Dockerfile na subpasta RMM-FRONTEND para construir a imagem
+    build: ./RMM-FRONTEND
+    
+    # Mapea a porta 8081 do seu computador para a porta 8081 do container
+    ports:
+      - "8081:8081"
+    
+    restart: always

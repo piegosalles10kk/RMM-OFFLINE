@@ -1,0 +1,8 @@
+{
+    "TESTE": ["CPU Temp"],
+    "TESTE1": ["CPU Temp", "GPU Temp"],
+    "TESTE2": ["RAM Uso", "CPU Uso"],
+    "TESTE3": ["CPU Temp", "CPU Uso"],
+    "TESTE4": ["Disco Principal Uso"]
+
+}
